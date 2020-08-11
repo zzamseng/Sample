@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCPSample", "OCPSample\OCPSample.csproj", "{0B3F54A0-5444-4866-A256-CEC90401F3ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B3F54A0-5444-4866-A256-CEC90401F3ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B3F54A0-5444-4866-A256-CEC90401F3ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B3F54A0-5444-4866-A256-CEC90401F3ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B3F54A0-5444-4866-A256-CEC90401F3ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C53ECFFA-C060-4D5B-A059-5BD75F320906}
+	EndGlobalSection
+EndGlobal
