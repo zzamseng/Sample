@@ -1,4 +1,5 @@
 ﻿using System;
+using BuilderSample.FunctionalBuilder;
 
 namespace BuilderSample
 {
@@ -6,20 +7,14 @@ namespace BuilderSample
     {
         static void Main(string[] args)
         {
-            var htmlBuilder = new HtmlBuilder("html");
+            var builder = new FunctionalBuilder.PersonBuilder();
 
-            
-            htmlBuilder.AppendElement("body", "nothing")
-                   .AppendElement("element", "nothing");
+            var persion = builder.Called("shjung")
+                                 .Location("Korea")
+                                 .Builder();
 
-            Console.WriteLine(htmlBuilder.ToString());
+            Console.WriteLine(persion);
 
-
-            //fluent builder
-            var person = Person.New.Called("Manager").WorkAsA("Korea").Build();
-
-            Console.WriteLine(person);
-            // 
         }
     }
 }
