@@ -1,5 +1,5 @@
 ﻿using System;
-using BuilderSample.FunctionalBuilder;
+using BuilderSample.CodeBuilderTest;
 
 namespace BuilderSample
 {
@@ -7,14 +7,12 @@ namespace BuilderSample
     {
         static void Main(string[] args)
         {
-            var builder = new FunctionalBuilder.PersonBuilder();
+            var cb = new CodeBuilder("Person")
+                                    .AddFiled("Name", "string")
+                                    .AddFiled("Age", "int");
 
-            var persion = builder.Called("shjung")
-                                 .Location("Korea")
-                                 .Builder();
 
-            Console.WriteLine(persion);
-
+            Console.WriteLine(cb);
         }
     }
 }

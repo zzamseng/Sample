@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BuilderSample
+namespace BuilderSample.Html
 {
     public sealed class HtmlElement
     {

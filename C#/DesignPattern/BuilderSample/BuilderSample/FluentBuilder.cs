@@ -1,5 +1,5 @@
 ﻿using System;
-namespace BuilderSample
+namespace BuilderSample.Fluent
 {
     public class Person
     {
