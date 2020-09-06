@@ -1,5 +1,4 @@
 ﻿using System;
-using BuilderSample.CodeBuilderTest;
 
 namespace BuilderSample
 {
@@ -7,12 +6,7 @@ namespace BuilderSample
     {
         static void Main(string[] args)
         {
-            var cb = new CodeBuilder("Person")
-                                    .AddFiled("Name", "string")
-                                    .AddFiled("Age", "int");
-
-
-            Console.WriteLine(cb);
+            var person = new FactoryPattern.Factory().CreatePerson("person");
         }
     }
 }
